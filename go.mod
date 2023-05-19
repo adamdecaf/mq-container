@@ -22,3 +22,5 @@ require (
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 // indirect
 	google.golang.org/protobuf v1.26.0-rc.1 // indirect
 )
+
+replace github.com/ibm-messaging/mq-golang v2.0.0+incompatible => github.com/adamdecaf/mq-golang arm64-support
